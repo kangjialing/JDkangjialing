@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="3dp"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/yizhifu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已支付" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#60000000" />
+
+    <TextView
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/daizhifu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="待支付" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#60000000" />
+
+    <TextView
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/yiquxiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已取消" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#60000000" />
+
+    <TextView
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/wodedingdan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的订单" />
+
+</LinearLayout>
